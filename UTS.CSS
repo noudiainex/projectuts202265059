@@ -1,0 +1,316 @@
+body {
+  padding: 35vh 0vh;
+}
+#navigasi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  border-bottom: 1px solid black;
+  padding: 0.5rem 7%;
+  position: fixed;
+  top: 1px; /*supaya mentok ke atas*/
+  left: 0;
+  right: 0; /* left dan right di kasih nol supaya ukurannya penuh satu layar*/
+  z-index: 9999;
+  margin: 0px 7px;
+  border-radius: 10px;
+}
+
+#navbar2 a {
+  margin: 0 1rem;
+  text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: lightcyan;
+  list-style-type: none;
+}
+#navbar2 a:hover {
+  color: goldenrod;
+}
+#navbar-ekstra {
+  color: lightcyan;
+  margin: 0 0.5rem;
+}
+#navbar-ekstra a:hover {
+  color: darkgoldenrod;
+}
+#Hamburger-menu {
+  display: none;
+}
+
+#navigasi #logo span {
+  color: darkkhaki;
+}
+#navigasi #logo {
+  font-size: 3rem;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "Snap ITC";
+}
+#Hamburger-menu {
+  color: lightcyan;
+  margin-right: 5px;
+  /* display: none; */
+}
+
+/*STYLE HOME PUNYA*/
+#home {
+  border-radius: 10px;
+  background-color: olive;
+  padding-top: 180px;
+
+  font-size: medium;
+  justify-content: baseline;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2px;
+}
+#kotak1,
+#kotak2,
+#kotak3,
+#kotak4,
+#kotak5,
+#kotak6,
+#kotak7,
+#kotak8 {
+  background-color: white;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.sinopsis1,
+.sinopsis2,
+.sinopsis3,
+.sinopsis4,
+.sinopsis5 {
+  display: none;
+  font-family: "Calibri";
+}
+
+/*STYLE PROFIL PUNYA*/
+#profil {
+  margin-top: 150px;
+  margin-bottom: 10px;
+  font-size: medium;
+  align-items: center;
+  padding-top: 50px;
+  background-color: white;
+  border-radius: 30px;
+}
+/*STYLE LAYOUT PUNYA*/
+#container {
+  background-color: antiquewhite;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-top: 50px;
+  border-radius: 20px;
+}
+#header {
+  color: saddlebrown;
+  background-color: lavender;
+
+  top: 20%;
+  bottom: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 15px 0px;
+}
+#header span {
+  color: black;
+}
+#navbar {
+  background-color: azure;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#navbar a {
+  padding: 10px;
+  color: cadetblue;
+}
+#footer {
+  background-color: plum;
+  padding: 10px 0px;
+  color: peachpuff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#footer h5 {
+  list-style: none;
+}
+#colom_1 {
+  width: 30%;
+  height: 50px;
+  padding-bottom: 150px;
+  justify-content: center;
+  background-color: lightpink;
+}
+
+#colom_2 {
+  width: 40%;
+  height: 50px;
+  padding-bottom: 150px;
+  justify-content: center;
+  background-color: ivory;
+}
+#colom_3 {
+  width: 30%;
+  height: 50px;
+  padding-bottom: 150px;
+  justify-content: center;
+  background-color: lemonchiffon;
+}
+#left1 {
+  width: max-content;
+  background-color: lavenderblush;
+}
+#center4 {
+  width: max-content;
+  background-color: dimgray;
+}
+#right8 {
+  background-color: saddlebrown;
+  width: max-content;
+}
+#left2 {
+  width: max-content;
+  background-color: gold;
+}
+#center5 {
+  background-color: indianred;
+  width: max-content;
+}
+#left3 {
+  width: max-content;
+  background-color: palegreen;
+}
+#center6 {
+  width: max-content;
+  background-color: paleturquoise;
+}
+#right7 {
+  background-color: olive;
+  width: max-content;
+}
+
+/*STYLE DOM PUNYA*/
+
+#header2 {
+  padding: 50px 0px;
+  background-color: olive;
+}
+#gabung {
+  background-color: white;
+}
+
+#left {
+  width: 35%;
+}
+#p1 p,
+#p3 p,
+#p2 p,
+#p4 p {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#p1 {
+  padding: 0.3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50px;
+}
+#p2,
+#p3,
+#p4 {
+  border-radius: 20px;
+  padding: 0.05px;
+  width: 40%;
+  margin-bottom: 1px;
+}
+
+#right {
+  width: 65%;
+  background-color: olive;
+}
+
+#merah,
+#biru,
+#kuning,
+#pink,
+#ungu {
+  background-color: white;
+  margin-bottom: 2px;
+  padding: 10px 2px;
+  font-size: medium;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#merah {
+  margin-top: 0;
+}
+/*bagian select button*/
+#btn1,
+#btn2,
+#btn3 {
+  border-radius: 8px;
+  padding: 8px 15px;
+  border-style: solid olive;
+}
+
+/*bagian select warna*/
+#color {
+  color: olive;
+  padding: 10px 0px;
+  width: 60%;
+  border-radius: 50px;
+  border-top-color: olive;
+  border-bottom-color: olive;
+}
+/* media queris */
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 65%;
+  }
+}
+/* tablet */
+@media (max-width: 758px) {
+  html {
+    font-size: 55%;
+  }
+  #navbar-ekstra #Hamburger-menu {
+    display: inline-block;
+  }
+
+  #navbar2 {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background-color: sienna;
+    width: 15rem;
+    height: 100vh;
+  }
+  #navbar2.active {
+    right: 0;
+  }
+
+  #navigasi #navbar2 a {
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2.2rem;
+  }
+}
+/* handphone */
+@media (max-width: 450px) {
+  html {
+    font-size: 45%;
+  }
+}
